@@ -4,9 +4,7 @@ document.querySelector('#menu-bar').onclick = () =>{
     navbar.classList.toggle('active');
 }
 
-document.querySelector('#close').onclick = () =>{
-    navbar.classList.remove('active');
-}
+
 
 window.onscroll = () =>{
 
@@ -130,7 +128,7 @@ var swiper = new Swiper(".review-slider", {
 });
 function tMessage() {
     var time=setTimeout("alert('Pesanan anda sudah masuk dan kami akan segera proses pesanan anda')", 2000);
-}
+};
 
 function setCookie(cname,cvalue,exdays) {
     const d = new Date();
